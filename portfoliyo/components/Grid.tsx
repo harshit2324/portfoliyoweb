@@ -7,7 +7,7 @@ import { title } from 'process'
 function Grid() {
   return (
     <section id='about'>
-      <BentoGrid>
+      <BentoGrid className='w-full py-20'>
      {gridItems.map ((item) => (
       <BentoGridItem 
       id ={item.id}
@@ -16,8 +16,8 @@ function Grid() {
       description={item.description}
       className={item.className}
       img ={item.img}
-      imgClassname = {item.titleClassName}
-
+      titleclassname = {item.titleClassName}
+     spareImg={item.spareImg}
 
       />
      ))}
