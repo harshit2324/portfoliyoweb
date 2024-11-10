@@ -1,8 +1,7 @@
 import React from 'react'
 import { BentoGrid, BentoGridItem } from './ui/Bentogrid'
-import { i } from 'framer-motion/client'
 import { gridItems } from '@/data'
-import { title } from 'process'
+
 
 function Grid() {
   return (

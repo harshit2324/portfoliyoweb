@@ -1,3 +1,6 @@
+import { profile } from "console";
+import { link } from "fs";
+
 export const navItems = [
   { name: "About", link: "#about" },
   { name: "Projects", link: "#projects" },
@@ -205,13 +208,17 @@ export const socialMedia = [
   {
     id: 1,
     img: "/git.svg",
+    profile: 'https://github.com/harshit2324'
+  
   },
   {
     id: 2,
-    img: "/twit.svg",
+    img: "https://www.svgrepo.com/show/475658/instagram-color.svg",
+    profile: "https://www.instagram.com/pandit__harshit__richhariya__/?__pwa=1"
   },
   {
     id: 3,
     img: "/link.svg",
+  profile: 'https://www.linkedin.com/in/harshit-richhariya-240528308?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app'
   },
 ];

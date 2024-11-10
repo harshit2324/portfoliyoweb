@@ -81,7 +81,7 @@ export const BentoGridItem = ({
         <div>
           {id === 6 && (
             <BackgroundGradientAnimation>
-              {/* <div className="absolute z-50 flex items-center justify-center text-white font-bold"> </div> */}
+              
             </BackgroundGradientAnimation>
           ) }
           <div className={cn(
@@ -95,13 +95,14 @@ export const BentoGridItem = ({
         </div>
         {id === 2 && <GlobeDemo />}
         {id === 3 && (
-          <div className="flex gap-1 lg:gap-5 w-fit absolute -right-3 lg:right-2"> 
+          <div className=" flex gap-1 lg:gap-5 w-fit absolute -right-3 lg:right-2"> <div className="flex flex-col gap-3 lg:gap-2 lg:pt-10 "> 
           {['React.js', "Next.js", "javascript"].map((item) => (
             <span key={item} className="py-2 lg:py-4
             lg:px-3 px-3 text-xs lg:text-base opacity-50 lg:opacity-100 rounded-lg text-center bg-[#10132e]">
               {item}
             </span>
           ))}
+          </div>
           <span className="py-4 px-3 text-center rounded-lg bg-[#10132e]" />
             </div>
         )}
@@ -114,7 +115,7 @@ export const BentoGridItem = ({
              <Lottie options={{
               loop: copied,
               autoplay: copied,
-              animationData: animationData,
+              animationData,
               rendererSettings: {
                 preserveAspectRatio: 'xMidyMid slice'
               }

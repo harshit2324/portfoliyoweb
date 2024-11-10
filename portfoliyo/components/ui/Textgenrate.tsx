@@ -25,7 +25,7 @@ export const TextGenerateEffect = ({
       },
       {
         duration: duration ? duration : 1,
-        delay: stagger(0.2),
+        delay: stagger(0.1),
       }
     );
   }, [scope.current]);
@@ -36,8 +36,10 @@ export const TextGenerateEffect = ({
         {wordsArray.map((word, idx) => {
           return (
             <motion.span
-              key={word + idx}
-              className={` ${idx > 3 ? 'text-purple':'dark:text-white text-black'}opacity-0`}
+            key={word + idx}
+            // change here if idx is greater than 3, change the text color to #CBACF9
+            className={` ${idx > 3 ? "text-purple" : "dark:text-white text-black"
+              } opacity-0`}
               style={{
                 filter: filter ? "blur(10px)" : "none",
               }}
