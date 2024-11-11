@@ -5,7 +5,7 @@ import { Button } from './MovingBorders'
 function Experience() {
   return (
     <div className='py-20 ' id='testimonials'>
-      <h1 className='heading'>
+      <h1 className='heading mb-20'>
           my 
           <span className='text-purple'> work Experience</span>
       </h1>

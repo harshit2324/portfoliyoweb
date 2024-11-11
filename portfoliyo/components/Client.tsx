@@ -4,8 +4,8 @@ import { companies, testimonials } from '@/data'
 
 function Client() {
   return (
-    <div className='py-20' id='testimonials'>
-    <h1 className='heading'>
+    <div className='p-5' id='testimonials'>
+    <h1 className='heading mb-20'>
      kind words from {" "}
       <span className='text-purple'> 
        setisfied Clients
